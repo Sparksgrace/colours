@@ -1,0 +1,66 @@
+.square{
+    width:30%;
+    padding-bottom: 30%;
+    background:purple;
+    float:left;
+    margin:1.66%;
+    background: #232323;
+    border-radius: 15%;
+    transition: all 0.6s;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+body{
+    margin: 0;
+    background: #232323;
+    letter-spacing: 1px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin:0;
+    color: white;
+    background: steelblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    padding: 15px;
+    
+}
+h1 span{
+    font-size: 200%;
+}
+
+#stripe{
+    background: white;
+    text-align: center;
+    height: 30px;
+}
+.selected{
+    background:steelblue;
+    color:white;
+}
+#message{
+    display: inline-block;
+    width:20%;
+    padding:0;
+    font-size: 110%;
+}
+button{
+    margin:0;
+    border: none;
+    background: white;
+    height:100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: steelblue;
+    font-weight: 700;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+button:hover{
+    color: white;
+    background: steelblue;
+}
